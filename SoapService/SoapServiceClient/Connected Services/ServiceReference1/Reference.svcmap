@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="17974fef-e1c6-4686-bbe6-86076a1c7837" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/SoapService/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="14d84655-722e-4432-98ea-6d41c42a321c" SourceId="1" SourceUrl="http://localhost:8000/SoapService/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="6bbab140-1197-48e1-a398-cf0fae37a403" SourceId="1" SourceUrl="http://localhost:8000/SoapService/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="c8faddf3-d51d-4aba-b6bb-35a672c0fd7a" SourceId="1" SourceUrl="http://localhost:8000/SoapService/Service1/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="ae768e35-27bc-4317-a648-70ce2ef73d5c" SourceId="1" SourceUrl="http://localhost:8000/SoapService/Service1/mex" />
+    <MetadataFile FileName="Models.xsd" MetadataType="Schema" ID="7ef7db48-4f7b-4f61-9f68-fdc70f274691" SourceId="1" SourceUrl="http://localhost:8000/SoapService/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
